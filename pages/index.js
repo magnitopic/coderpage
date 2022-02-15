@@ -11,9 +11,6 @@ export default function Home() {
         <link rel="icon" href="/CoderNautsLogo.svg" />
       </Head>
       <div>
-        <Image>
-          
-        </Image>
       </div>
     </div>
   )
