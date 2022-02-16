@@ -1,7 +1,11 @@
+import styles from '../styles/First.module.css';
+
 const First= () => {
 	return (
-		<div>
-			
+		<div id={styles.image}>
+			<div id={styles.imageText}>
+				CoderDojo Majadahonda
+			</div>
 		</div>
 	)
 }
