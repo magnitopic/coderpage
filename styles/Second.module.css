@@ -1,16 +1,17 @@
-#main{
+#main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 40vh;
     width: 100%;
+    background: linear-gradient(95deg, #f0aa71, rgba(85, 56, 250, 0.993));
 }
 
-#titulo{
+#titulo {
     font-size: 2em;
 }
 
-#text{
-
+#text {
+    font-size: 1.2em;
+    text-align: center;
 }
