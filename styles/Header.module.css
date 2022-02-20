@@ -6,7 +6,7 @@
 	height: auto;
 	width: 100%;
 	font-size: 1.8em;
-	background: linear-gradient(200deg, #7047e2, rgba(250, 56, 95, 0.993));
+	background: linear-gradient(80deg, #642580, #ed684a);
 	z-index: 10;
 }
 
@@ -33,5 +33,5 @@
 }
 
 .links:hover {
-	text-decoration-color: #00BFFF;
+	text-decoration-color: #00bfff;
 }

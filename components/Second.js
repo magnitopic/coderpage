@@ -2,6 +2,7 @@ import styles from "../styles/Second.module.css";
 
 function Second() {
 	return (
+		<>
 		<div id={styles.main}>
 			<div className={styles.separator} id={styles.separator}></div>
 			<p id={styles.titulo}>Que es CoderDojo?</p>
@@ -22,6 +23,8 @@ function Second() {
 				aprendizaje de las diferentes disciplinas, y lenguajes.
 			</p>
 		</div>
+			<div className={styles.spacer}></div>
+		</>
 	);
 }
 
