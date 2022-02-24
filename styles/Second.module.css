@@ -4,12 +4,11 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background: #0066FF;
     padding: 80px 0;
 }
 
 #titulo {
-    font-size: 2em;
+    font-size: 5.6rem;
     margin: 0;
     margin-bottom: 20px;
 }

@@ -13,3 +13,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.title {
+  font-weight: bold;
+  font-family: LeagueGothic;
+  font-style: italic;
+  font-weight: 400;
+}

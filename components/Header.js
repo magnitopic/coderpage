@@ -12,9 +12,9 @@ const Header= () => {
 				</a>
 			</Link>
 			<div id={styles.links}>
-				<Link href="" passHref><p className={styles.links}>Eventos</p></Link>
+				<Link href="" passHref><p className={styles.links}>¿Quienes somos?</p></Link>
 				<Link href="" passHref><p className={styles.links}>Contacto</p></Link>
-				<Link href="" passHref><h4 className={styles.links}>Blog</h4></Link>
+				<Link href="" passHref><h4 className={styles.links}>Noticias</h4></Link>
 			</div>
 		</div>
 	)

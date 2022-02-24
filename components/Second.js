@@ -5,7 +5,7 @@ function Second() {
 		<>
 		<div id={styles.main}>
 			<div className={styles.separator} id={styles.separator}></div>
-			<p id={styles.titulo}>Que es CoderDojo?</p>
+			<p id={styles.titulo} className="title">Que es CoderDojo?</p>
 			<p id={styles.text}>
 				CoderDojo es una iniciativa sin ánimo de lucro nacida en Irlanda
 				en 2011, que promueve el despliegue de clubes de programación,
@@ -23,7 +23,7 @@ function Second() {
 				aprendizaje de las diferentes disciplinas, y lenguajes.
 			</p>
 		</div>
-			<div className={styles.spacer}></div>
+		{/* <div className={styles.spacer}></div> */}
 		</>
 	);
 }
