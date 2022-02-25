@@ -6,9 +6,10 @@
 	height: auto;
 	width: 100%;
 	font-size: 1.8em;
-	/* background: linear-gradient(80deg, #642580, #ed684a); */
 	color: #fff;
 	z-index: 10;
+	background: linear-gradient(90deg, #1d1b3a, rgba(29, 27, 58, 0) 82.26%),
+		linear-gradient(180deg, #3e4899, rgba(62, 72, 153, 0)), #ed1e79;
 }
 
 #logo {

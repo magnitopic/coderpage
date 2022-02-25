@@ -5,10 +5,11 @@
     flex-direction: column;
     width: 100%;
     padding: 80px 0;
+    background: linear-gradient(90deg, #e22a92, rgba(237, 30, 121, 0)), #f15a24;
 }
 
 #titulo {
-    font-size: 5.6rem;
+    font-size: 4em;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -18,13 +19,4 @@
     text-align: center;
     max-width: 1280px;
     margin: 20px 25px 0 25px;
-}
-
-.spacer{
-    aspect-ratio: 960/290;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url("/separator.svg");
 }

@@ -1,10 +1,15 @@
-import First from '../components/First';
+import TitleImage from "../components/TitleImage";
+import Header from "../components/Header";
+import AboutUs from "../components/AboutUs";
+
+
 
 export default function Home() {
-  return (
-    <>
-
-      <First />
-    </>
-  )
+	return (
+		<>
+			<Header />
+			<TitleImage />
+			<AboutUs />
+		</>
+	);
 }
