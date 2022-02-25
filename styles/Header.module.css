@@ -5,6 +5,7 @@
 	justify-content: space-around;
 	height: auto;
 	width: 100%;
+	flex-wrap: wrap;
 	font-size: 1.8em;
 	color: #fff;
 	z-index: 10;
@@ -18,22 +19,35 @@
 }
 
 #pageName {
-	margin-left: 1vh;
+	margin-left: 0.3em;
 }
 
 #links {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .links {
 	color: inherit;
 	text-decoration: underline 0.15em rgba(255, 255, 255, 0);
 	transition: text-decoration-color 300ms;
-	margin: 2.5vh;
+	margin: 1em;
 	cursor: pointer;
 }
 
 .links:hover {
 	text-decoration-color: #00bfff;
+}
+
+/*Moble optimization*/
+
+@media screen and (max-width: 1000px) {
+	.links {
+		margin: 0.9em;
+		font-size: 0.6em;
+	}
+	#logo {
+		font-size: 0.8em;
+	}
 }
