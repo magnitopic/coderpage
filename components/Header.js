@@ -1,18 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
+import Logo from "./ui/Logo";
 
 const Header = () => {
 	return (
 		<div id={styles.mainHeader}>
 			<Link href="/" passHref>
 				<a id={styles.logo}>
-					<Image
-						src="/CoderNautsLogo.svg"
-						alt="Picture of the author"
-						width="45"
-						height="45"
-					/>
+					<Logo />
 					<h3 id={styles.pageName}>CoderDojo Majadahonda</h3>
 				</a>
 			</Link>

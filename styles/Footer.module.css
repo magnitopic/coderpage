@@ -1,0 +1,44 @@
+#main {
+	padding: 2em 0px;
+	background: #121212;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: #fff;
+}
+
+#logo {
+	height: 200em;
+	height: auto;
+}
+
+#socials {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	height: 13em;
+}
+
+.logos {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	flex-direction: column;
+	height: 100%;
+}
+
+#socialLinks {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+}
