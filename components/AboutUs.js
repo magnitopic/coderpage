@@ -8,8 +8,9 @@ function AboutUs() {
 				¿Quienes somos?
 			</p>
 			<p id={styles.text}>
-				Somos un club de programación en el que participan niños y
-				niñas de entre 7 y 17 años. CoderDojo es una iniciativa sin
+				¡Somos CoderDojo Majadahonda!<br/>Un club de programación en el que participan niños y
+				niñas de entre 7 y 17 años. Un sitio con un buen ambiente para compratir conocimientos
+				tecnologicos CoderDojo es una iniciativa sin
 				ánimo de lucro nacida en Irlanda en 2011, que promueve el
 				despliegue de clubes de programación, donde los ninjas
 				(niños y niñas, chicas y chicos de entre 7 y 17 años),
