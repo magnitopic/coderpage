@@ -4,7 +4,7 @@ const Meta = ({title, keywords, description}) => {
 	return (
 		<Head>
 			<link rel="preconnect" href="https://fonts.googleapis.com"/>
-			<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+			<link rel="preconnect" href="https://fonts.gstatic.com"/>
 			<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
 			<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet" type="text/css"/>
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
