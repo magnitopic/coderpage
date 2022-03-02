@@ -1,3 +1,34 @@
-.question{
-	
+.question {
+	margin: .5em 1.5em;
+	border: 2px solid #000;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1000px;
+}
+
+#title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5em 1.3em;
+	font-size: 1.4em;
+	color: #0b61ff;
+	text-align: center;
+}
+
+#text {
+	border-top: 2px solid #000;
+	padding: 0.5em 2em;
+	margin: 0px;
+	display: none;
+}
+
+#button{
+	height: 1.5em;
+	width: 1.5em;
+	font-size: 1.2em;
+	background: inherit;
+	color: inherit;
+	border: none;
+	border-radius: 50%;
 }
