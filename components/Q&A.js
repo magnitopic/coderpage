@@ -1,9 +1,13 @@
 import Question from "./ui/Question";
 
 const QA = () => {
+	const [openQuestion, setOpenQuestion] = useState("None");
 	return (
 		<div>
 			<style jsx>{`
+				#\{openQuestion\} {
+					color: red;
+				}
 				h1 {
 					color: #0b61ff;
 					text-align: center;
