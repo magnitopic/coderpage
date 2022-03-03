@@ -1,7 +1,19 @@
 import Question from "./ui/Question";
+import { useState } from "react";
 
 const QA = () => {
 	const [openQuestion, setOpenQuestion] = useState("None");
+
+	const text=[
+		"Hello",
+		"There",
+		"Kenoby"
+	];
+
+	const expand=()=>{
+
+	}
+
 	return (
 		<div>
 			<style jsx>{`
@@ -20,9 +32,14 @@ const QA = () => {
 				}
 			`}</style>
 			<h1>Preguntas frecuentes</h1>
-			<Question
-				text={"¿Tengo que tener conocimientos previos de programación?"}
-			/>
+
+			{text.map((text) => (
+				<Question
+				key={text.id}
+				divClass={text.id}
+				onExpandHandler
+				text={text}/>
+			))};
 		</div>
 	);
 };
