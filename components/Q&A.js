@@ -7,6 +7,7 @@ const QA = () => {
 	const text=[
 		"Hello",
 		"There",
+		"General",
 		"Kenoby"
 	];
 
