@@ -1,36 +1,21 @@
+import styles from "../styles/TitleImage.module.css";
 
 const TitleImage = () => {
-	// Background Image script
-	
+	const image = "image" + Math.round(Math.random() * 1);
 
 	return (
 		<>
 			<style jsx>{`
-				#image {
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					text-align: center;
-					background-image: url(/dojo${Math.round(Math.random() * 1)}.jpg);
-					width: 100%;
-					height: 35em;
-					background-position: center;
-					background-repeat: no-repeat;
-					background-size: cover;
+				#image0 {
+					background-image: url(/dojo0.jpg);
 				}
 
-				#imageText {
-					padding: 10px 20px 10px 10px;
-					font-size: 4em;
-					width: fit-content;
-					background-color: rgb(0, 0, 0); /* Fallback color */
-					background-color: rgba(0, 0, 0, 0.7);
-					color: white;
-					z-index: 2;
+				#image1 {
+					background-image: url(/dojo1.jpg);
 				}
 			`}</style>
-			<div id="image">
-				<div id="imageText" className="title">
+			<div id={image} className={styles.image}>
+				<div id={styles.imageText} className="title">
 					CoderDojo Majadahonda
 				</div>
 			</div>
