@@ -1,5 +1,5 @@
 #main {
-	padding: 2em 0px;
+	padding: 5px 0px;
 	background: #121212;
 	display: flex;
 	align-items: center;
@@ -30,7 +30,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px;
+	padding: 5px;
 	flex-direction: column;
 	height: 100%;
 }

@@ -40,7 +40,7 @@ const QA = () => {
 				divClass={text.id}
 				onExpandHandler
 				text={text}/>
-			))};
+			))}
 		</div>
 	);
 };
