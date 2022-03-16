@@ -19,6 +19,8 @@
 #map {
     height: 25em;
     width: 25em;
+    border: 2px solid #000;
+	border-radius: 5px;
 }
 
 #list {
