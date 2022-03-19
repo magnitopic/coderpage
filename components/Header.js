@@ -16,7 +16,7 @@ const Header = () => {
 				<Link href="" passHref>
 					<p className={styles.links}>¿Quienes somos?</p>
 				</Link>
-				<Link href="" passHref>
+				<Link href="/#Contact_main__GP0vA" passHref>
 					<p className={styles.links}>Contacto</p>
 				</Link>
 				<Link href="" passHref>

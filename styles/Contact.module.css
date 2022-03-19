@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     width: 100%;
     padding: 10px;
+    background: rgb(230, 230, 230);
 }
 
 .content {
@@ -28,9 +29,22 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
     padding: 10px;
 }
 
-.links {
+.button{
+    font-size: 1.1em;
+    padding: .6em;
+    margin: 2px 3.5em;
+    border: 1.5px solid #000;
+	border-radius: 5px;
+    color: #fff;
+}
+
+#twitter{
+    background: #1DA1F2;
+}
+
+#zen{
+    background: #49B749;
 }

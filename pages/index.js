@@ -11,8 +11,8 @@ export default function Home() {
 			<Header />
 			<TitleImage />
 			<AboutUs />
-			<QA />
 			<Contact />
+			<QA />
 			<Footer />
 		</>
 	);

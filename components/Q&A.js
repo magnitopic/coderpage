@@ -11,15 +11,11 @@ const QA = () => {
 		"Kenoby"
 	];
 
-	const expand=()=>{
-
-	}
-
 	return (
 		<div>
 			<style jsx>{`
-				#\{openQuestion\} {
-					color: red;
+				.${openQuestion} {
+					display: inline;
 				}
 				h1 {
 					color: #0b61ff;
@@ -36,9 +32,9 @@ const QA = () => {
 
 			{text.map((text) => (
 				<Question
-				key={text.id}
-				divClass={text.id}
-				onExpandHandler
+				key={text}
+				divClass={text}
+				onExpandHandler={value =>setOpenQuestion(value)}
 				text={text}/>
 			))}
 		</div>

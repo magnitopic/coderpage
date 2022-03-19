@@ -21,22 +21,18 @@ const Contact = () => {
 						</li>
 						<li>Telefono: +34 916349120</li>
 						<li>E-mail: majadahonda.es@coderdojo.com</li>
-						<li>
-							<Link
-								href="https://twitter.com/codernauts_es"
-								passHref={true}
-							>
-								Twitter
-							</Link>
-						</li>
-						<li>
-							<Link
-								href="https://zen.coderdojo.com/dojos/es/majadahonda/majadahonda-centro-juvenil-principe-de-asturias"
-								passHref={true}
-							>
-								CoderDojo Zen
-							</Link>
-						</li>
+						<Link
+							href="https://twitter.com/codernauts_es"
+							passHref={true}
+						>
+							<button id={styles.twitter} className={styles.button}>Twitter</button>
+						</Link>
+						<Link
+							href="https://zen.coderdojo.com/dojos/es/majadahonda/majadahonda-centro-juvenil-principe-de-asturias"
+							passHref={true}
+						>
+							<button id={styles.zen} className={styles.button}>CoderDojo Zen</button>
+						</Link>
 					</div>
 				</div>
 			</div>
