@@ -12,18 +12,16 @@ function AboutUs() {
 				<br />
 				Un club de programación en el que participan niños y niñas de
 				entre 7 y 17 años. Un sitio con un buen ambiente para compratir
-				conocimientos tecnologicos
+				conocimientos tecnologicos.
 			</p>
 			<p id={styles.titulo} className="title">
 				¿Que es CoderDojo?
 			</p>
 			<p id={styles.text}>
-				Los clubes son organizados y gestionados por voluntarios y
-				voluntarias (conocidos como champions), y cuentan con la
-				participación de mentores, personas con conocimientos de
-				lenguajes y herramientas de programación, que desinteresadamente
-				dedican parte de su tiempo libre para guiar a los ninjas en el
-				aprendizaje de las diferentes disciplinas, y lenguajes.
+				CoderDojo es una iniciativa para acercar la tecnología a los
+				jóvenes. Empezó en Irlanda el 23 de Julio 2011. Desde entonces
+				se ha expandido por todo el mundo, a más de 100 países. Ya es
+				todo un fenómeno global.
 			</p>
 			<Image
 				src="/group.png"
