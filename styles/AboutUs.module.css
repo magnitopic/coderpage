@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    padding: 80px 0;
+    padding: 2em 0;
     background: linear-gradient(90deg, #e22a92, rgba(237, 30, 121, 0)), #f15a24;
 }
 
