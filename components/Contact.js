@@ -5,7 +5,7 @@ import styles from "../styles/Contact.module.css";
 const Contact = () => {
 	return (
 		<>
-			<div className={styles.main}>
+			<div className={styles.main} id="Contacto">
 				<div className={styles.content}>
 					<iframe
 						id={styles.map}

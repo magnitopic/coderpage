@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function AboutUs() {
 	return (
-		<div id={styles.main}>
+		<div className={styles.main} id="AboutUs">
 			<p id={styles.titulo} className="title">
 				¿Quienes somos?
 			</p>
