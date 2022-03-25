@@ -6,10 +6,10 @@ const Header = () => {
 	return (
 		<div id={styles.mainHeader}>
 			<Link href="/" passHref>
-				<a id={styles.logo}>
-					<Logo />
-					<h3 id={styles.pageName}>CoderDojo Majadahonda</h3>
-				</a>
+				<div id={styles.logo}>
+					<div id={styles.logoImage}><Logo /></div>
+					<h3>CoderDojo Majadahonda</h3>
+				</div>
 			</Link>
 			<div id={styles.links}>
 				<Link href="/#AboutUs" passHref>

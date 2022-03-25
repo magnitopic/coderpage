@@ -6,8 +6,8 @@ const Logo = () => {
 			<Image
 				src="/CoderNautsLogo.svg"
 				alt="logo"
-				width="45"
-				height="45"
+				width="70"
+				height="70"
 			/>
 		</>
 	);
