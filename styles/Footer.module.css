@@ -38,6 +38,11 @@
 	color: #bb0000;
 	margin-right: 0.2em;
 	font-size: 2em;
+	color: #bb0000;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0) 10%, #ffffff 10%, #ffffff 90%, rgba(0, 0, 0, 0) 90%);
+	text-align: center;
+	margin: .5rem;
+	line-height: .4em;
 }
 
 #github {

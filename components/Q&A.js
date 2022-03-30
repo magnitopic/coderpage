@@ -8,7 +8,7 @@ const QA = () => {
 		"Hello",
 		"There",
 		"General",
-		"Kenoby"
+		"Kenobi"
 	];
 
 	return (
