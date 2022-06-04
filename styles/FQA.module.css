@@ -1,0 +1,11 @@
+.h1 {
+	color: #000000;
+	text-align: center;
+}
+.div {
+    background: linear-gradient(90deg, #e22a92, rgba(237, 30, 121, 0)), #f15a24;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}

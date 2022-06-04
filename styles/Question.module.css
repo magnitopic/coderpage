@@ -1,5 +1,6 @@
 .question {
-	margin: .5em 1.5em;
+	background: white;
+	margin: 1em 1.5em;
 	border: 2px solid #000;
 	border-radius: 5px;
 	width: 100%;
@@ -24,7 +25,7 @@
 	display: none;
 }
 
-#button{
+#button {
 	height: 1.5em;
 	width: 1.5em;
 	font-size: 1.2em;

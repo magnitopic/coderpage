@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import AboutUs from "../components/AboutUs";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
-import QA from "../components/Q&A";
+import FQA from "../components/FQA";
 
 export default function Home() {
 	return (
@@ -12,7 +12,7 @@ export default function Home() {
 			<TitleImage />
 			<AboutUs />
 			<Contact />
-			<QA />
+			<FQA />
 			<Footer />
 		</>
 	);
