@@ -3,7 +3,9 @@ import Image from "next/image";
 
 function AboutUs() {
 	return (
-		<div className={styles.main} id="AboutUs">
+		<>
+		<a id="AboutUs" className="anchor"></a>
+		<div className={styles.main} >
 			<div className={styles.content}>
 				<div>
 					<p id={styles.titulo} className="title">
@@ -36,6 +38,7 @@ function AboutUs() {
 				height="213"
 			/>
 		</div>
+		</>
 	);
 }
 

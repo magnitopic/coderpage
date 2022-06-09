@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
 import Logo from "./ui/Logo";
+import { useEffect, useState } from 'react';
 
 const Header = () => {
 	return (

@@ -1,4 +1,6 @@
 #mainHeader {
+	position: fixed;
+	transition: 0.2s;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
